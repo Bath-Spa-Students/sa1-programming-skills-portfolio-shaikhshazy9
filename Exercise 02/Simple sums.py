@@ -8,13 +8,13 @@ Steps:
 3. Declare a third variable that stores the sum of first two numbers.
 4. Print the value of the sum to the console."""
 #Step 1 : Create a variable with the number 8.
-first_number = 8 
+a = 8 
 
 #Step 2 : Create another variable with the number 10.
-second_number = 10 
+b = 10 
 
 #Step 3 : Add both of the numbers and save the result.
-sum_of_numbers = first_number + second_number 
+total = a + b
 
 #Step 4: Show the result on the screen
 print("The sum is:", sum_of_numbers) #print the sum (8+10)
