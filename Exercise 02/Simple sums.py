@@ -17,4 +17,4 @@ b = 10
 total = a + b
 
 #Step 4: Show the result on the screen
-print("The sum is:", sum_of_numbers) #print the sum (8+10)
+print("The sum is:", total) #print the sum (8+10)
