@@ -18,11 +18,11 @@ Test the program by entering a string value for age (e.g., "twenty"). What happe
 __________________________________________________________________________________
 """
 # Step 1 - put the information in a dictionary
-name = input("Enter your name: ")
-hometown = input("Enter your hometown: ")
-age = int(input("Enter your age: "))
+Name = input("Enter your name: ")
+Hometown = input("Enter your hometown: ")
+Age = int(input("Enter your age: "))
 
 
 
 # Step 2 - print the values on separate lines using single print statement
-print( name, hometown, age)
+print( Name, Hometown, Age)
