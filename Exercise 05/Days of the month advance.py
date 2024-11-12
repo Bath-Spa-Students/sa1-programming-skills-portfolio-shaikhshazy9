@@ -3,18 +3,18 @@ Leap Year Adjustment: Modify the program to account for leap years. For February
 
 #This program will show days in each month with leap year check
 print("Find out how many days are in a month")
-month = int(input("Enter month number (1-12): ")) #get a month number from the user
+month = int(input("Enter month number (1-12): ")) #get any month number from the user
 
 #now check each month
 if month == 1:
     print("January has 31 days")
 
 elif month == 2: 
-    leap = input("Is it a leap year? (yes/no): ")
+    leap = input("Is it a leap year? (yes/no): ") #here it will ask about leap year 
     if leap == "yes":
-        print("February has 29 days")
+        print("February has 29 days") #if ans is yes it will print this
     else:
-        print("February has 28 days")    
+        print("February has 28 days") #if no then it will print as 28 
 
 elif month == 3: 
     print("March has 31 days")
